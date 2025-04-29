@@ -227,7 +227,7 @@ async def generate_and_send_pdf(update: Update, context: ContextTypes.DEFAULT_TY
             os.remove(output_path)
 
 def main():
-    application = ApplicationBuilder().token('7766682700:AAHwEmX6s1D4p4S22Llu4L17xMvQPMIzU28').build()
+    application = ApplicationBuilder().token('7808919328:AAFSYp1w1K-tBXmv-zdnmWf3LZ8yTpCWhIU').build()
 
     conv_handler = ConversationHandler(
         entry_points=[
